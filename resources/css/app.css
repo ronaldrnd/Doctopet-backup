@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Palette de couleurs */
+:root {
+    --vert-fonce: #43a047;
+    --vert-moyen: #6cc447;
+    --vert-menthe: #a5d6a7;
+    --gris-clair: #b0bec5;
+    --jaune-moutarde: #ffdb58;
+    --brun-clair: #a0522d;
+    --blanc-pur: #ffffff;
+}
+
+/* Fontes */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Exemples d'utilisation */
+.bg-vert-fonce {
+    background-color: var(--vert-fonce);
+}
+.text-vert-fonce {
+    color: var(--vert-fonce);
+}
+.bg-vert-moyen {
+    background-color: var(--vert-moyen);
+}
+.text-vert-moyen {
+    color: var(--vert-moyen);
+}
+.bg-vert-menthe {
+    background-color: var(--vert-menthe);
+}
+.text-vert-menthe {
+    color: var(--vert-menthe);
+}
+.bg-gris-clair {
+    background-color: var(--gris-clair);
+}
+.text-gris-clair {
+    color: var(--gris-clair);
+}
+.bg-jaune-moutarde {
+    background-color: var(--jaune-moutarde);
+}
+.text-jaune-moutarde {
+    color: var(--jaune-moutarde);
+}
+.bg-brun-clair {
+    background-color: var(--brun-clair);
+}
+.text-brun-clair {
+    color: var(--brun-clair);
+}
+.bg-blanc-pur {
+    background-color: var(--blanc-pur);
+}
+.text-blanc-pur {
+    color: var(--blanc-pur);
+}
+
+
+.text-overlay {
+    color: var(--blanc-pur); /* Utiliser le blanc pur pour le contraste */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+    padding: 8px 12px; /* Espacement autour du texte */
+    border-radius: 8px; /* Coins arrondis */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre portée */
+}
